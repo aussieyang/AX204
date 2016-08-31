@@ -10,23 +10,6 @@ ctx.strokeStyle = "rgb(0,100,100)";
 ctx.strokeRect(80, 80, 140, 140);
 ctx.clearRect(120, 120, 60, 60);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Challenge 1
 var c1 = document.getElementById('one');
 var ctx1 = c1.getContext('2d');
