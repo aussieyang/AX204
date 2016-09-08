@@ -1,6 +1,6 @@
 # Welcome to AX204 / AC203
 
-In this repository, you will find the following:
+#####In this repository, you will find the following:
 1. Code for every exercise/project we attempt in class
 2. A link to a live version of that code in action
 
