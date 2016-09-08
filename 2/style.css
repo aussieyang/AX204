@@ -1,0 +1,10 @@
+#flexContainer {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-items: center;
+}
+
+p {
+  width: 75%;
+}
