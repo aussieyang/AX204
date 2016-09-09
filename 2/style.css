@@ -3,8 +3,16 @@
   flex-direction: column;
   vertical-align: middle;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("http://www.publicdomainpictures.net/pictures/170000/velka/grunge-background-146356047033U.jpg");
 }
 
 p {
-  width: 75%;
+  width: 65%;
+}
+
+#flexContainer * {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
