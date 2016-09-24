@@ -90,33 +90,33 @@ ctx5.lineTo(375, 350);
 ctx5.stroke();
 
 // Buildings
-ctx5.fillRect(500, 100, 100, 250);
-ctx5.clearRect(520, 120, 20, 20);
-ctx5.clearRect(560, 120, 20, 20);
-ctx5.clearRect(520, 160, 20, 20);
-ctx5.clearRect(560, 160, 20, 20);
-ctx5.clearRect(520, 200, 20, 20);
-ctx5.clearRect(560, 200, 20, 20);
-ctx5.clearRect(520, 240, 20, 20);
-ctx5.clearRect(560, 240, 20, 20);
-ctx5.clearRect(520, 280, 20, 20);
-ctx5.clearRect(560, 280, 20, 20);
-ctx5.clearRect(520, 320, 20, 20);
-ctx5.clearRect(560, 320, 20, 20);
-
-ctx5.fillRect(610, 100, 100, 250);
-ctx5.clearRect(630, 120, 20, 20);
-ctx5.clearRect(670, 120, 20, 20);
-ctx5.clearRect(630, 160, 20, 20);
-ctx5.clearRect(670, 160, 20, 20);
-ctx5.clearRect(630, 200, 20, 20);
-ctx5.clearRect(670, 200, 20, 20);
-ctx5.clearRect(630, 240, 20, 20);
-ctx5.clearRect(670, 240, 20, 20);
-ctx5.clearRect(630, 280, 20, 20);
-ctx5.clearRect(670, 280, 20, 20);
-ctx5.clearRect(630, 320, 20, 20);
-ctx5.clearRect(670, 320, 20, 20);
+// ctx5.fillRect(500, 100, 100, 250);
+// ctx5.clearRect(520, 120, 20, 20);
+// ctx5.clearRect(560, 120, 20, 20);
+// ctx5.clearRect(520, 160, 20, 20);
+// ctx5.clearRect(560, 160, 20, 20);
+// ctx5.clearRect(520, 200, 20, 20);
+// ctx5.clearRect(560, 200, 20, 20);
+// ctx5.clearRect(520, 240, 20, 20);
+// ctx5.clearRect(560, 240, 20, 20);
+// ctx5.clearRect(520, 280, 20, 20);
+// ctx5.clearRect(560, 280, 20, 20);
+// ctx5.clearRect(520, 320, 20, 20);
+// ctx5.clearRect(560, 320, 20, 20);
+//
+// ctx5.fillRect(610, 100, 100, 250);
+// ctx5.clearRect(630, 120, 20, 20);
+// ctx5.clearRect(670, 120, 20, 20);
+// ctx5.clearRect(630, 160, 20, 20);
+// ctx5.clearRect(670, 160, 20, 20);
+// ctx5.clearRect(630, 200, 20, 20);
+// ctx5.clearRect(670, 200, 20, 20);
+// ctx5.clearRect(630, 240, 20, 20);
+// ctx5.clearRect(670, 240, 20, 20);
+// ctx5.clearRect(630, 280, 20, 20);
+// ctx5.clearRect(670, 280, 20, 20);
+// ctx5.clearRect(630, 320, 20, 20);
+// ctx5.clearRect(670, 320, 20, 20);
 
 ctx5.fillRect(100, 250, 200, 100);
 ctx5.clearRect(130, 310, 20, 20);
@@ -127,3 +127,33 @@ ctx5.clearRect(130, 270, 20, 20);
 ctx5.clearRect(170, 270, 20, 20);
 ctx5.clearRect(210, 270, 20, 20);
 ctx5.clearRect(250, 270, 20, 20);
+
+// House
+ctx5.fillRect(560,250,200,100);
+// Window
+ctx5.clearRect(575,265,40,40);
+ctx5.moveTo(595,265);
+ctx5.lineTo(595,305);
+ctx5.strokeStyle = "black";
+ctx5.stroke();
+ctx5.moveTo(575,285);
+ctx5.lineTo(615,285);
+ctx5.stroke();
+// Door
+ctx5.fillStyle = "brown";
+ctx5.fillRect(700,265,30,85);
+ctx5.beginPath();
+ctx5.arc(720,310,5,0,6.28);
+ctx5.closePath();
+ctx5.stroke();
+ctx5.fillStyle = "yellow";
+ctx5.fill();
+// Roof
+ctx5.beginPath();
+ctx5.moveTo(535,250);
+ctx5.lineTo(660,200);
+ctx5.lineTo(785,250);
+ctx5.closePath();
+ctx5.stroke();
+ctx5.fillStyle = "peru";
+ctx5.fill();
