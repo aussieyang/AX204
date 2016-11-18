@@ -77,13 +77,13 @@ function draw() {
 function collisionHandle() {
 	// If there is a collision, resets position of fruit and changes the score
 	if (badCollision == true) {
-		badX = Math.floor(Math.random() * 550);
+			badX = Math.floor(Math.random() * 550);
   		badY = Math.floor(Math.random() * 550);
   		score -= 1;
   		document.getElementById("score").innerHTML = score;
 	}
 	if (goodCollision == true) {
-		goodX = Math.floor(Math.random() * 550);
+			goodX = Math.floor(Math.random() * 550);
   		goodY = Math.floor(Math.random() * 550);
   		score += 1;
   		document.getElementById("score").innerHTML = score;
